@@ -1,0 +1,15 @@
+{
+	"manifest_version":2,
+	"name": "MAKAUT Result plugin",
+	"description" : "easiest way to get fetch your results",
+	"version" : "1.0",
+	"browser_action": {
+		"default_icon" :"WBUT.png",
+		"default_popup":"popup.html",
+		"default_title":"Get Results"
+	},
+
+	"permissions": [
+		"activeTab"
+	]
+}
